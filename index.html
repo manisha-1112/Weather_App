@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <!-- Search Section -->
+        <div class="search">
+            <input type="text" placeholder="Enter a location" spellcheck="false">
+            <button>Submit</button>
+        </div>
+        
+        <!-- Weather Display Section -->
+        <div class="weather">
+            <img src="https://openweathermap.org/img/wn/01d.png" class="icon" alt="Weather Icon"> <!-- Default sunny icon -->
+            <h3 class="description">Sunny</h3>
+            <h1 class="temp">22°C</h1> 
+            <h2 class="city">Patna</h2> 
+        </div>            
+            <!-- Details Section -->
+            <div class="details">
+                <div class="col">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3262/3262968.png" alt="Humidity Icon">
+                    <div>
+                        <p class="humidity">56%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>  
+                <div class="col">
+                    <img src="https://cdn3.iconfinder.com/data/icons/nature-emoji/50/Windy-512.png" alt="Wind Icon">
+                    <div>
+                        <p class="wind">7km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+  <script src="main.js"></script>
+</body>
+</html>
